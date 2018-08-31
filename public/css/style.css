@@ -1,0 +1,16 @@
+.panel {
+    border-color: #8A0401;
+}
+.panel > .panel-heading { 
+    background-image: none; 
+    background-color: #8A0401; 
+    color: white;     
+}
+.table {
+    border-color: red;
+}
+.table > .thead  {
+    background-image: none; 
+    background-color: #8A0401; 
+    color: white; 
+}

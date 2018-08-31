@@ -1,0 +1,65 @@
+/* ------------------------------------------------
+    1.***Base Css Start***
+------------------------------------------------- */
+
+* {
+    list-style: none;
+    outline: none !important;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+a,span{
+    display: inline-block;
+}
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+P {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    max-width: 100%;
+}
+ol,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+select {
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    -webkit-appearance: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: $body_color;
+    background: $white;
+    font-weight: $regular;
+    line-height: 1.5;
+    @include tab {
+        font-size: 14px;
+        
+    }
+    @include mobile {
+        font-size: 13px;
+    line-height: 1.4;
+    }
+}
+
+        
